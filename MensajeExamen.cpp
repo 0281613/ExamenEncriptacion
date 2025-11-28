@@ -12,7 +12,7 @@ string descifrar(string palabra) { // Esta función recibe una palabra y devolve
         palabra[i] = palabra[i + 1]; //aqui se cambia la letra i por la letra que está en la en i+1
         palabra[i + 1] = temp; //y finalmente pone la letra guardada en i en la posición i+1
     }
-    return palabra; //nada más devuelve la palabra descifrada
+    return palabra; //devuelve la palabra descifrada
 }
 
 //ahora vamos con el programa principal
@@ -55,5 +55,6 @@ int main() {
     cout << "Mensaje descifrado: " << resultado << endl; //manda el mensaje resuelto
     return 0;
 }
+
 
 
